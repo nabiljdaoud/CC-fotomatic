@@ -31,7 +31,7 @@ html {
 
 @media only screen and (max-width: 760px) {
   .main-content {
-    top: 2.5625rem;
+    top: 2.5625rem; /* To offset for fixed header. */
   }
 }
 
@@ -182,6 +182,7 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    margin: 0 auto;
   }
 
   #sign-up-cta .content {
@@ -277,6 +278,10 @@ header .mobile {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
   }
 }
 
