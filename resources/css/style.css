@@ -53,6 +53,8 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-family: "Andale Mono", AndaleMono, monospace;
+  font-size: 1.5rem;
 }
 
 header nav ul {
@@ -278,6 +280,10 @@ header .mobile {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature:nth-of-type(2n + 1) {
+    background-color: #dfdfdf;
   }
 
   .feature .content {
